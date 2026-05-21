@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Empleo</title>
+</head>
+<body>
+    <form action="">
+        <h2>Datos Basicos</h2>
+
+        <label for="">Nombre</label>
+        <input type="text" id="Usuario" name="nombre" placeholder="Ingresar nombres">    
+        
+        <br><br>
+
+        <label for="apellidos">Apellidos</label>
+        <input type="text" id="apellidos" name="apellidos" placeholder="Ingresar apellidos">
+
+        <br><br>
+
+        <label for="CorreoUsuario">Correo electronico: </label>
+        <input type="email" id="correoUsuario" name="Email" placeholder="correo@ejemplo.com" required>
+
+    </form>
+    <form action="">
+        <h2>Fecha disponibilidad</h2>
+        <label for="Disponibilidad"></label>
+        <input type="date" id="Disponibilidad" name="fecha_Disp">   
+        
+        <br><br>
+
+        <h2>Nivel de estudio</h2>
+        <select name="Nivel de Estudio" id="Nivel de Estudio">
+            <option value="">--SELECCIONE SU NIVEL DE ESTUDIO--</option>
+            <option value="NV">primaria</option>
+            <option value="NV">bachillerato</option>
+            <option value="NV">tecnico</option>
+            <option value="NV">tecnologo</option>
+            <option value="NV">profesional</option>
+        </select>
+        <br><br>
+            <h2>Años de Experiencia</h2> 
+            <label for="Experiencia">Años de Experiencia: </label>
+            <input type="number" id="Años de experiencia" name="Años de Experiencia" min="0" max="50">
+
+        <br><br>
+        <h2>Lenguajes de programacion</h2>
+        <input type="checkbox" name="Lenguaje de programacion" id="lenguaje de programacion" required>
+        <label for="lenguaje de programacion">Python</label>
+        <input type="checkbox" name="Lenguaje de programacion" id="lenguaje de programacion" required>
+        <label for="lenguaje de programacion">Java</label>
+        <input type="checkbox" name="Lenguaje de programacion" id="lenguaje de programacion" required>
+        <label for="lenguaje de programacion">JavaScript</label>
+
+        <br><br>
+        <h2>Carta de Presentacion</h2>
+        <textarea name="Carta de Presentacion" id="Carta de Presentacion" rows="6" cols="50" placeholder="Escribe aqui..."></textarea>     
+        
+        <br><br>
+
+        <button type="submit">Enviar Formulario</button>
+        <button type="reset">Limpiar Formulario</button>
+    </form>
+</body>
+</html>
