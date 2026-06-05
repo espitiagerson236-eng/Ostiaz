@@ -1,0 +1,37 @@
+* {
+    font-size: 1.6rem;
+}
+
+body {
+    background-image: url('madre.jpg'); 
+}
+
+.titulo{
+    font-family: "Pinyon Script", cursive;
+    text-decoration: dotted;
+}
+
+.Tarjeta-modelo {
+    width: 60%;
+    height: 40%;
+    background-color: rgb(248, 97, 97);
+    border: 5px solid rgb(255, 0, 0);
+    padding: 10px;
+    margin: 4px 10px 40px 10px;
+    border-radius: 20px;
+    align-items: center;
+    
+}
+
+.parrafo{
+    color: black;
+    font-family: "Crafty Girls", cursive;
+    justify-content: left;
+    flex: 20px;
+    flex-wrap: wrap;
+}
+
+.image{
+    background-color: #eee;
+  
+}
